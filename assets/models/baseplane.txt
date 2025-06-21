@@ -1,0 +1,18 @@
+const vertices = new Float32Array([
+    -50.0, 0.0, 50.0,
+    50.0, 0.0, 50.0,
+    50.0, 0.0, -50.0,
+    -50.0, 0.0, -50.0,
+]);
+
+const uvCoords = new Float32Array([
+    0.0, 0.0,
+    1.0, 0.0,
+    1.0, 1.0,
+    0.0, 1.0,
+]);
+
+const indices = new Uint16Array([
+    0, 1, 2,
+    0, 2, 3,
+]);
